@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Soap.Views.SoapResult">
+    <ScrollView>
+        <StackLayout Padding="10,10" Orientation="Vertical">
+
+
+            <!--QUlity Benchmark -->
+
+
+
+            <Button  WidthRequest="400"  Clicked="Tab4" BorderRadius="20" TextColor="White" BackgroundColor="#FF0000" FontAttributes="Bold" FontSize="13" Text="Quality Summary" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+
+            <StackLayout  x:Name="Quality" IsVisible="False">
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#FF8080">
+                    <Label TextColor="Black"  Text="Hardness" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="s"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#FF8080">
+                    <Label TextColor="Black" Text="Cleansing" VerticalOptions="Start" HorizontalOptions="Start"></Label >
+                    <Label TextColor="Black" Text="25"  VerticalOptions="End"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#FF8080">
+                    <Label TextColor="Black" Text="Bubbly" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="30"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#FF8080">
+                    <Label TextColor="Black" Text="Conditioning" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="12"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#FF8080">
+                    <Label TextColor="Black" Text="Creamy" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="6"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#FF8080">
+                    <Label  TextColor="Black" Text="Silky" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="25"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#FF8080">
+                    <Label TextColor="Black" Text="Longevity" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label  TextColor="Black" Text="5"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#FF8080">
+                    <Label TextColor="Black" Text="Comedogenic" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label Text="21"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#FF8080">
+                    <Label TextColor="Black" Text="Iodine" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="30"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#FF8080">
+                    <Label TextColor="Black" Text="INSs" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="30"  VerticalOptions="EndAndExpand"  HorizontalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+            </StackLayout>
+            <!--/QUlity Benchmark -->
+
+          
+
+
+
+
+            <!-- Fatty Acid / Recipe Summary-->
+
+
+
+
+
+
+
+            <Button  Clicked="Tab1" WidthRequest="400"  TextColor="White"  BorderRadius="20" FontAttributes="Bold" BackgroundColor="#4F81BD" FontSize="13" Text="Fatty Acid Summary" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Button>
+            <StackLayout x:Name="Fatty" IsVisible="False">
+                <StackLayout >
+                    <StackLayout Orientation="Horizontal"   BackgroundColor="#B8CCE4"   >
+                        <Label TextColor="Black" Text="Hardness" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label TextColor="Black" Text="SS"  HorizontalOptions="End" VerticalOptions="End"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#B8CCE4" >
+                        <Label TextColor="Black" Text="Cleansing" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label TextColor="Black" Text="25" HorizontalOptions="End" VerticalOptions="End"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#B8CCE4"  >
+                        <Label TextColor="Black" Text="Bubbly" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label TextColor="Black" Text="30" HorizontalOptions="End" VerticalOptions="End"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#B8CCE4"  >
+                        <Label TextColor="Black" Text="Conditioning" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label TextColor="Black" Text="12"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal"  BackgroundColor="#B8CCE4" >
+                        <Label TextColor="Black" Text="Creamy" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label  TextColor="Black" Text="6"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#B8CCE4" >
+                        <Label TextColor="Black" Text="Silky" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label TextColor="Black" Text="25"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#B8CCE4" >
+                        <Label TextColor="Black" Text="Longevity" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label TextColor="Black" Text="5"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#B8CCE4" >
+                        <Label   TextColor="Black" Text="Comedogenic" VerticalOptions="Start" HorizontalOptions="StartAndExpand"></Label >
+                        <Label  TextColor="Black" Text="21"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#B8CCE4" >
+                        <Label TextColor="Black" Text="Iodine" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label TextColor="Black" Text="30"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#B8CCE4" >
+                        <Label  TextColor="Black" Text="INS" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                        <Label TextColor="Black" Text="30"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+
+
+            </StackLayout>
+
+
+            <!-- //Fatty Acid / Recipe Summary-->
+
+
+
+            <!--Recipe Summary-->
+
+
+
+
+            <Button Clicked="Tab2"  WidthRequest="400"  TextColor="White"  BorderRadius="20" FontAttributes="Bold" BackgroundColor="#9BBA58" FontSize="13" Text="Recipe Summary" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Button>
+            <StackLayout x:Name="Recipe" IsVisible="False" >
+                <StackLayout Orientation="Horizontal"   BackgroundColor="#D7E4BC"   >
+                    <Label TextColor="Black" Text="Mold Capacity, g" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="SS"  HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#D7E4BC" >
+                    <Label TextColor="Black" Text="Total batch weight, g" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="25" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#D7E4BC"  >
+                    <Label TextColor="Black" Text="Total oil weight, g" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="30" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#D7E4BC"  >
+                    <Label TextColor="Black" Text="Lye discount/Superfat, %" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="12"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"  BackgroundColor="#D7E4BC" >
+                    <Label TextColor="Black" Text="Lye concentration, %" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label  TextColor="Black" Text="6"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#D7E4BC" >
+                    <Label TextColor="Black" Text="Dual lye - NaOH %" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="25"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20" BackgroundColor="#D7E4BC" >
+                    <Label TextColor="Black" Text="Dual lye - KOH %" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="5"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#D7E4BC" >
+                    <Label   TextColor="Black" Text="Water discount, %" VerticalOptions="Start" HorizontalOptions="StartAndExpand"></Label >
+                    <Label  TextColor="Black" Text="21"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#D7E4BC" >
+                    <Label TextColor="Black" Text="Water substitution, %" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="30"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#D7E4BC" >
+                    <Label  TextColor="Black" Text="Fragrance, %" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"></Label >
+                    <Label TextColor="Black" Text="30"  VerticalOptions="End"  HorizontalOptions="End"></Label>
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+
+
+            <!--/Recipe Summary-->
+
+            <!-- lye -->
+            <Button Clicked="Tab3" WidthRequest="400"   TextColor="White"  BorderRadius="20" FontAttributes="Bold" BackgroundColor="#C0504D" FontSize="13" Text="Lye" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Button>
+            <StackLayout x:Name="Lye"  Orientation="Horizontal"   BackgroundColor="#E6B9B8" IsVisible="False">
+                <StackLayout Orientation="Vertical">
+                    <Label TextColor="Red" Text="Lye"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Caustic Soda (NaOH)"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Caustic Potash (KOH)"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Distilled Water"></Label>
+                    <Label TextColor="Black"  BackgroundColor="#E6B9B8" Text="32"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Lye Solution (Lye+water)"></Label>
+                </StackLayout>
+                <StackLayout>
+                    <Label  TextColor="Red" Text="Purity %"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Caustic Soda (NaOH)"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Caustic Potash (KOH)"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Distilled Water"></Label>
+                    <Label TextColor="Black"  BackgroundColor="#E6B9B8" Text="32"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Lye Solution (Lye+water)"></Label>
+                </StackLayout>
+                <StackLayout>
+                    <Label TextColor="Red" Text="g"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Caustic Soda (NaOH)"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Caustic Potash (KOH)"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Distilled Water"></Label>
+                    <Label TextColor="Black"  BackgroundColor="#E6B9B8" Text="32"></Label>
+                    <Label TextColor="Black" BackgroundColor="#E6B9B8" Text="Lye Solution (Lye+water)"></Label>
+                </StackLayout>
+
+            </StackLayout>
+
+            <!--/lye-->
+
+            <!--benchmark-->
+
+            <Button WidthRequest="400"   Clicked="Tab5" BorderRadius="20" BackgroundColor="#329965" TextColor="White" FontAttributes="Bold" FontSize="13" Text="Benchmark" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+            <StackLayout x:Name="BenchMark" IsVisible="False">
+                <Label BackgroundColor="#00FE00" TextColor="Black"  Text="(29-54)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(12-22)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(14-46)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(44-69)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(16-48)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(0-10)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(18-50)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(0-3)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(41-70)"></Label>
+                <Label BackgroundColor="#00FE00"  TextColor="Black" Text="(136-165)"></Label>
+
+            </StackLayout>
+            <!--benchmark-->
+
+
+
+
+
+
+
+
+
+
+        </StackLayout>
+        
+    </ScrollView>
+</ContentPage>

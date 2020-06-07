@@ -1,0 +1,215 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "ea35be4f51ec8e9923cbccd60eb12a5f490d41df"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Soap/1.0.0": {
+        "dependencies": {
+          "Microsoft.Net.Http": "2.2.29",
+          "NETStandard.Library": "2.0.1",
+          "Newtonsoft.Json": "11.0.2",
+          "Rg.Plugins.Popup": "1.1.4.158-pre",
+          "XLabs.Forms": "2.3.0-pre05",
+          "Xamarin.Forms": "3.1.0.637273"
+        },
+        "runtime": {
+          "Soap.dll": {}
+        }
+      },
+      "ExifLib.PCL/1.0.2-pre01": {
+        "runtime": {
+          "lib/netstandard1.0/ExifLib.dll": {}
+        }
+      },
+      "Microsoft.Bcl/1.1.10": {
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {},
+      "Microsoft.Net.Http/2.2.29": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {},
+          "lib/net45/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Rg.Plugins.Popup/1.1.4.158-pre": {
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.637273"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.1.0.637273": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "XLabs.Core/2.3.0-pre05": {
+        "runtime": {
+          "lib/netstandard1.0/XLabs.Core.dll": {}
+        }
+      },
+      "XLabs.Forms/2.3.0-pre05": {
+        "dependencies": {
+          "XLabs.Core": "2.3.0-pre05",
+          "XLabs.IoC": "2.3.0-pre05",
+          "XLabs.Platform": "2.3.0-pre05",
+          "XLabs.Serialization": "2.3.0-pre05",
+          "Xamarin.Forms": "3.1.0.637273"
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+monoandroid+MonoTouch+xamarinios10/XLabs.Forms.dll": {}
+        }
+      },
+      "XLabs.IoC/2.3.0-pre05": {
+        "runtime": {
+          "lib/netstandard1.0/XLabs.IOC.dll": {}
+        }
+      },
+      "XLabs.Platform/2.3.0-pre05": {
+        "dependencies": {
+          "ExifLib.PCL": "1.0.2-pre01",
+          "XLabs.Core": "2.3.0-pre05",
+          "XLabs.IoC": "2.3.0-pre05",
+          "XLabs.Serialization": "2.3.0-pre05"
+        },
+        "runtime": {
+          "lib/netstandard1.0/XLabs.Platform.dll": {}
+        }
+      },
+      "XLabs.Serialization/2.3.0-pre05": {
+        "runtime": {
+          "lib/NETStandard1.0/XLabs.Serialization.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Soap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExifLib.PCL/1.0.2-pre01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v31z/pzE+sPLSisnTtMhBuxXFF0y4B7tzYsoPwbRuvw1+lC9+5QKP+CHaZpWGoQkniCstwD1JyhhlrwffIqT8Q==",
+      "path": "exiflib.pcl/1.0.2-pre01",
+      "hashPath": "exiflib.pcl.1.0.2-pre01.nupkg.sha512"
+    },
+    "Microsoft.Bcl/1.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
+      "path": "microsoft.bcl/1.1.10",
+      "hashPath": "microsoft.bcl.1.1.10.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
+      "path": "microsoft.bcl.build/1.0.14",
+      "hashPath": "microsoft.bcl.build.1.0.14.nupkg.sha512"
+    },
+    "Microsoft.Net.Http/2.2.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fc4CPEewJ30Xgal+fSq1lYIBt582A7eKlAL7O4HXiYAiTp2VTnA4osSvk7T2n8aS4xTCPVJusQk3yKLT0XSpkg==",
+      "path": "microsoft.net.http/2.2.29",
+      "hashPath": "microsoft.net.http.2.2.29.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Rg.Plugins.Popup/1.1.4.158-pre": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CFhrhEiGfpDBTgH+wTJPvZ3Dd9NPGdHJmaZO/qaKt+KTIfuOetRbj6p4apEpVEsHu1vAhDacE9Ciumr71c/WXA==",
+      "path": "rg.plugins.popup/1.1.4.158-pre",
+      "hashPath": "rg.plugins.popup.1.1.4.158-pre.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.1.0.637273": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iYIMlhf5BFutJiVYYfawEtMzq4vo9m5qdT7R/IeDD40ENsqxqMBmvwp1/VzfD0las3ptkE0vgUG57O7QcUJlow==",
+      "path": "xamarin.forms/3.1.0.637273",
+      "hashPath": "xamarin.forms.3.1.0.637273.nupkg.sha512"
+    },
+    "XLabs.Core/2.3.0-pre05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9JHeideqKTMnE3oqbER639B3dzefrLaEe5Fl0SPSXMmRiJSq898srUoC00JNGtRTKSNLI9ZfD42h5QjwFsDfKw==",
+      "path": "xlabs.core/2.3.0-pre05",
+      "hashPath": "xlabs.core.2.3.0-pre05.nupkg.sha512"
+    },
+    "XLabs.Forms/2.3.0-pre05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+hl9ztcC+jtWxEDFmpnrzp3J78IBrxI2WgCAVFHs/ADnc3ABYn8StElXHmJNvW2jN9Dde0EZtqkqsnvnlgKawQ==",
+      "path": "xlabs.forms/2.3.0-pre05",
+      "hashPath": "xlabs.forms.2.3.0-pre05.nupkg.sha512"
+    },
+    "XLabs.IoC/2.3.0-pre05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6XqKBkxvU362b+FmnjgoxkcKxCk/MNF5q2ecLsHu/MxFIdrxl8EKYdYOPo+ktyff4W4PGCGwSUJEI7EhJEgMFg==",
+      "path": "xlabs.ioc/2.3.0-pre05",
+      "hashPath": "xlabs.ioc.2.3.0-pre05.nupkg.sha512"
+    },
+    "XLabs.Platform/2.3.0-pre05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kdwCt/XfHqC3nJgyToiXHojQ2JMws/L4lCBD1ZCiIJAbSIOa6XrCx68TwIhGyeJkJhuYv8dcbJNmh+QzlHnBww==",
+      "path": "xlabs.platform/2.3.0-pre05",
+      "hashPath": "xlabs.platform.2.3.0-pre05.nupkg.sha512"
+    },
+    "XLabs.Serialization/2.3.0-pre05": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z6n0TXQsHfYdrQoVXaID6o1Mc7YIl4ALLsyNxmrV38MxeOH+zxQN5LUE/vdrtcm57AspLoM1noB3t5r1yDnaEA==",
+      "path": "xlabs.serialization/2.3.0-pre05",
+      "hashPath": "xlabs.serialization.2.3.0-pre05.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Soap.Views.Page1"
+                       xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+              NavigationPage.HasNavigationBar="True"
+             BackgroundImage="/images/Back.jpg"  >
+
+
+    <ScrollView>
+        <StackLayout  Orientation="Vertical"  Padding="15,15,15,15" Spacing="15">
+     
+
+            <!-- 1-->
+            <StackLayout >
+                <!-- Title-->
+                <StackLayout >
+                    <!--<Label  Text="Unit of measurement" FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  />-->
+
+                    <Button TextColor="White" x:Name="Bt1" FontSize="17"  FontAttributes="Bold" ContentLayout="Right,0" Image="/images/Slide2.png"  BorderRadius="20" WidthRequest="234"  BackgroundColor="#607D8B" Text="Unit of measurement" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"    Clicked="Button1"></Button>
+                    
+                </StackLayout>
+                <!-- Title-->
+                <StackLayout x:Name="First" Padding="13,0"  IsVisible="False">
+                    <Label Text="Weight" FontSize="18" TextColor="#FF4081"></Label>
+                    <controls:BindableRadioGroup x:Name="RadioUnit"  SelectedIndex="{Binding id}" TextColor="Black"    ></controls:BindableRadioGroup>
+                <Label x:Name="TestVlaue" Text=""></Label>
+                </StackLayout>
+            </StackLayout>
+
+            <!-- /1-->
+            <!-- 2-->
+            <StackLayout>
+                <StackLayout >
+                    <!--<Label Text="Mold of capacity"  FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />-->
+                    <Button TextColor="White" FontSize="17"  ContentLayout="Right,0" Image="/images/Slide2.png"  BorderRadius="20" WidthRequest="234"  x:Name="Bt2" BackgroundColor="#FF5722" FontAttributes="Bold" Text="Mold of capacity" Clicked="Button2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Button>
+                </StackLayout>
+                <StackLayout x:Name="Seconde" Padding="13,0" IsVisible="False">
+                    <Label Text="Type" FontSize="18" TextColor="#FF4081"></Label>
+                    <controls:BindableRadioGroup x:Name="RadioMold" SelectedIndex="{Binding id}"  TextColor="Black"></controls:BindableRadioGroup>
+                <Entry WidthRequest="50" x:Name="Lenght"  Keyboard="Numeric" Placeholder="lenght" TextChanged="TextChange"></Entry>
+                <Entry x:Name="Width" Keyboard="Numeric"   Placeholder="Width" TextChanged="TextChange"></Entry>
+                <Entry x:Name="Height" Keyboard="Numeric"  Placeholder="Height" TextChanged="TextChange"></Entry>
+                <Entry x:Name="Diamter" Keyboard="Numeric" Placeholder="Diameter" TextChanged="TextChange"></Entry>
+                <Label x:Name="Capacity" Text="Capacity is : " FontSize="17" FontAttributes="Bold" TextColor="#050404" ></Label>
+                </StackLayout>
+            </StackLayout>
+            <!-- /2-->
+
+
+            <!-- 3-->
+
+            <StackLayout>
+                <StackLayout >
+                    <!--<Label Text="Lye"  FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />-->
+                    <Button TextColor="White" x:Name="Bt3" FontSize="17" ContentLayout="Right,0" Image="/images/Slide2.png"  BorderRadius="20" WidthRequest="234" BackgroundColor="#1976D2" FontAttributes="Bold" Text="Lye" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"    Clicked="Button3"></Button>
+                </StackLayout>
+
+                <StackLayout x:Name="Third"   IsVisible="False" >
+                <StackLayout   Orientation="Horizontal" Padding="13,0" Spacing="25" >
+                    <Label   Text="Lye Discount/Superfat: " HorizontalOptions="Center" VerticalOptions="Center"  TextColor="Black" FontAttributes="Bold"   ></Label>
+                    <Entry x:Name="SuperFat" Text="5" Keyboard="Numeric" Placeholder="insert a value"  HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" ></Entry>
+                    
+                    
+
+                </StackLayout>
+                <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25" >
+                <Picker x:Name="SoapType" Title="Chose Soap Type" SelectedIndexChanged="SelectSoapType" TextColor="Black" FontAttributes="Bold">
+                    <Picker.Items>
+                        <x:String>NaOH(For bar soap)</x:String>
+                        <x:String>KOH (For Liquid soap)KOH Purity,% (90-100)</x:String>
+                        <x:String>Dual Lye(For hybrid soap)</x:String>
+                    </Picker.Items>
+                </Picker>
+                        <Entry x:Name="Naoh" Placeholder="" FontAttributes="Bold" Text="100"  WidthRequest="100"  ></Entry>
+                        <Entry x:Name="KOh" Placeholder="KOH " FontAttributes="Bold" Text="100"  IsVisible="False" ></Entry>
+                </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+
+            <!-- /3-->
+
+
+            <!-- 4-->
+
+            <StackLayout>
+
+                <StackLayout >
+                    <!--<Label Text="Water"   FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />-->
+                    <Button TextColor="White" FontSize="17" x:Name="Bt4" ContentLayout="Right,0" Image="/images/Slide2.png"  BorderRadius="20" WidthRequest="234" BackgroundColor="#C2185B" FontAttributes="Bold" Text="Water" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Button4"></Button>
+                </StackLayout>
+
+                <StackLayout x:Name="Fourth" Orientation="Vertical" IsVisible="False">
+                        <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25">
+                        <Label  TextColor="Black" FontAttributes="Bold" Text="Lye concentration, % (25-40)" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+                        <Entry Keyboard="Numeric" x:Name="LyeConcen"  Text="27"  HorizontalOptions="Center" VerticalOptions="Center" ></Entry>
+
+                        </StackLayout>
+                            <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25">
+                        <Label TextColor="Black" FontAttributes="Bold" Text="Water Discount, % (15-40)" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+                                <Entry x:Name="WaterDis" Keyboard="Numeric" Text="0" Placeholder="insert a value"  HorizontalOptions="Center" VerticalOptions="Center" ></Entry>
+
+                            </StackLayout>
+                            <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25">
+                        <Label  TextColor="Black" FontAttributes="Bold" Text="Water substitution, % (0-100)" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+                        <Entry Keyboard="Numeric" x:Name="WaterSub" Text="0" Placeholder="insert a value"  HorizontalOptions="Center" VerticalOptions="Center" ></Entry>
+
+                            </StackLayout>
+                            <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25">
+                        <Label TextColor="Black" FontAttributes="Bold" Text="Substitution ID" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+                            <Entry Keyboard="Numeric" Placeholder="insert a value"  HorizontalOptions="Center" VerticalOptions="Center" ></Entry>   
+
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+            <!-- //4-->
+
+
+            <!-- 5-->
+
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout >
+                    <!--<Label Text="Butters/fats/Oils/Waxes List"   FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />-->
+                    <Button TextColor="White" x:Name="Bt5" FontSize="17" ContentLayout="Right,0" Image="/images/Slide2.png"   BorderRadius="20" WidthRequest="234" BackgroundColor="#FBC02D" FontAttributes="Bold" Text=" Butters/fats/Oils/Waxes List" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Button5"></Button>
+                </StackLayout>
+                <StackLayout x:Name="Fifth" Orientation="Vertical" IsVisible="False">
+                <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25">
+                        <Label  TextColor="Black" FontAttributes="Bold" Text="Weight of oils (auto/manul input)" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+                    <Entry Keyboard="Numeric" Placeholder="" Text="500"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ></Entry>
+
+
+
+                </StackLayout>
+                <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25">
+                        <Label TextColor="Black" FontAttributes="Bold" Text="Weight of oils based on mold capacity" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+                    <Entry Keyboard="Numeric" IsEnabled="False" Placeholder=""  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ></Entry>
+
+                </StackLayout>
+
+
+
+
+                    <StackLayout Orientation="Horizontal" Padding="13,0" Spacing="25">
+                        <Label TextColor="Black" FontAttributes="Bold" Text="Total amount of oils in your recip" ></Label>
+                        <Label TextColor="White" x:Name="TotalPercent" FontSize="18" Text="0" ></Label>
+                        <Label TextColor="White"  x:Name="TotaGrams" FontSize="18" Text="0" ></Label>
+                </StackLayout>
+
+
+
+
+
+
+                <StackLayout Orientation="Horizontal">
+                        <Picker TextColor="#008CBA" x:Name="OilsPicker" ItemDisplayBinding="{Binding name}"  Title="Butters/fats/Oils/Waxes List"  SelectedIndexChanged="SelectOil" >
+                    
+
+                    </Picker>
+                   
+                </StackLayout>
+                
+                <StackLayout >
+                        <ListView x:Name="LLL" ItemTapped="DeleteOil">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    
+                                    <StackLayout  Orientation="Horizontal" Padding="9,0" Spacing="20">
+                                        <Grid  Padding="10" >
+                                            <!--<Label x:Name="ss"  Text="{Binding counter}"  FontSize="30" TextColor="White" ></Label>-->
+                                                <Image  Source="/images/Del.png"  ClassId="{Binding MyID}" >
+                                                    <Image.GestureRecognizers>
+                                                        <TapGestureRecognizer  Tapped="DeleteOil" >
+                                                            
+                                                        </TapGestureRecognizer>
+                                                    </Image.GestureRecognizers>
+                                                </Image>
+                                        </Grid>
+                                            
+                                            <Label  FontAttributes="Bold" Text="{Binding name} " HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black" ></Label>
+                                            <Label  FontAttributes="Bold" TextColor="Black"  Text="{Binding WeightValue, StringFormat=' {0} Gram' }"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" ></Label>
+                                            <Label FontAttributes="Bold" TextColor="Black"  Text="{Binding PercentageValue,StringFormat=' {0} % ' }"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" ></Label>
+
+                                          
+
+
+                                        </StackLayout>
+                                </ViewCell>
+                            
+                                
+                                </DataTemplate>
+                            
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+            <!-- /5-->
+            
+            
+            <!--6-->
+
+            
+                <StackLayout >
+                    <!--<Label  Text="Unit of measurement" FontSize="25" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  />-->
+
+                <Button TextColor="White" FontSize="17" x:Name="Bt6"  ContentLayout="Right,0" Image="/images/Slide2.png"  BorderRadius="20" WidthRequest="234" BackgroundColor="#b30086" Text="Fragrance" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"     Clicked="Button6"></Button>
+                </StackLayout>
+             
+            <StackLayout x:Name="Sixth" IsVisible="False">
+                <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25">
+                    <Label TextColor="Black" FontAttributes="Bold" Text="Fragrance oil, %" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+                    <Entry Keyboard="Numeric" x:Name="Frag"  Text="3"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ></Entry>
+
+                </StackLayout>
+                <StackLayout  Orientation="Horizontal" Padding="13,0" Spacing="25">
+                    <Label TextColor="Black" FontAttributes="Bold"   Text="ID: " HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+                    <Entry Keyboard="Numeric" Text=""  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ></Entry>
+
+                </StackLayout>
+            </StackLayout>
+            <!--/6-->
+
+
+
+
+
+
+            <StackLayout  Orientation="Horizontal">
+                <Button TextColor="White"  BorderRadius="20" BackgroundColor="#770404" WidthRequest="100" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Text="Rest"></Button>
+                <Button Clicked="Calc" TextColor="White" BorderRadius="20" BackgroundColor="#1abb9a" WidthRequest="100" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Text="Calc" ></Button>
+ 
+            </StackLayout>
+
+
+
+            <StackLayout Padding="30,0" Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Label Text="Visit Our Website" FontAttributes="Bold" TextColor="#3b4052"  HorizontalOptions="CenterAndExpand" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Visit">
+                            
+                        </TapGestureRecognizer>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

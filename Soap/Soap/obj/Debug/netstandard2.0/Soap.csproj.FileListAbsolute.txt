@@ -1,0 +1,15 @@
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\bin\Debug\netstandard2.0\Soap.deps.json
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\bin\Debug\netstandard2.0\Soap.dll
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\bin\Debug\netstandard2.0\Soap.pdb
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Views\Page3.xaml.g.cs
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Views\SoapForm.xaml.g.cs
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Soap.csproj.CoreCompileInputs.cache
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Soap.AssemblyInfoInputs.cache
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Soap.AssemblyInfo.cs
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Soap.dll
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Soap.pdb
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Soap.csprojAssemblyReference.cache
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\Views\SoapResult.xaml.g.cs
+C:\Users\a_tom\source\repos\Soap\Soap\Soap\obj\Debug\netstandard2.0\XamlC.stamp

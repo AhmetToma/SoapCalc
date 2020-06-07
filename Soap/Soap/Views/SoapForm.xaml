@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Soap.Views.SoapForm" Title="Page" NavigationPage.HasNavigationBar="True"
+              xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms">
+
+    <TableView>
+        <TableRoot>
+            <TableSection Title="Unit of measurement"  >
+                <ViewCell >
+                
+                        <Picker x:Name="UnitPicker"  Title="Choose unit" BackgroundColor="Snow"  SelectedIndexChanged="SellectItem"  VerticalOptions="EndAndExpand" >
+                            <Picker.Items>
+                                <x:String >Grams, g</x:String>
+                                <x:String >Ounces, oz</x:String>
+                                <x:String >Kilograms, kg</x:String>
+                                <x:String >Pounds, lbs</x:String>
+                            </Picker.Items>
+                        </Picker>
+
+                
+
+                </ViewCell>
+                <ViewCell>
+                    <Label TextColor="Blue" x:Name="Unit" Text=""></Label>
+                </ViewCell>
+            </TableSection>
+
+
+            <TableSection  Title="Mold of capacity">
+
+                <ViewCell>
+                    <Picker x:Name="Type"  Title="Choose a type" BackgroundColor="Snow"  >
+                        <Picker.Items>
+                            <x:String >Loaf/Slab</x:String>
+                            <x:String >Cylinder</x:String>
+
+                        </Picker.Items>
+                    </Picker>
+
+                </ViewCell>
+                
+                <EntryCell Label="Length"   LabelColor="Red"   Placeholder="Length" Keyboard="Numeric"   ></EntryCell>
+                <EntryCell  Label="Width" LabelColor="Red" Placeholder="Width"  Keyboard="Numeric"></EntryCell>
+                <EntryCell  Label="Height" LabelColor="Red" Placeholder="Height"  Keyboard="Numeric"></EntryCell>
+                <EntryCell Label="Diameter" LabelColor="Red" Placeholder="Diameter" Keyboard="Numeric"></EntryCell>
+              
+
+            </TableSection>
+            <TableSection Title="lye">
+
+            </TableSection>
+            <TableSection Title="Water">
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" >
+                     
+                            <Label Text="bulb.png" VerticalOptions="Start" HorizontalOptions="Start" />
+                        <Entry   TextColor="#f35e20"  VerticalOptions="End" ></Entry>
+                       
+              
+                        
+                    </StackLayout>
+                </ViewCell>
+
+            </TableSection>
+            
+            <TableSection Title="ssss">
+                <TextCell Text="ahmed"></TextCell>
+                <EntryCell Label="Entry Label" Text="EntryCell Text" />
+            </TableSection>
+            <TableSection Title="Butter">
+                <ViewCell>
+                    <StackLayout>
+                        <controls:BindableRadioGroup x:Name="RadioTest"></controls:BindableRadioGroup>
+                        <Label Text="sqwqdwqd"></Label>
+                    </StackLayout>
+                </ViewCell>
+                
+            </TableSection>
+            <TableSection Title="Fats"></TableSection>
+            <TableSection Title="Oils"></TableSection>
+            <TableSection Title="Waxes List"></TableSection>
+        </TableRoot>
+    </TableView>
+ 
+</ContentPage>
